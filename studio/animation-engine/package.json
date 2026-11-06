@@ -1,0 +1,23 @@
+{
+  "name": "anymyn-animation-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ANYMYN autonomous finance video production animation engine",
+  "scripts": {
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "preview": "remotion preview"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/paths": "4.0.541",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.8.2"
+  }
+}
