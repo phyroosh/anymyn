@@ -28,12 +28,21 @@ studio/
 
 ---
 
-## Production Pipeline V6: ElevenLabs Voiceover-First Workflow
+## Production Pipeline V7: Retention Engineering & Voiceover-First Workflow
 
-All production follows the linear voiceover-first pipeline:
+All production follows the retention-engineered, voiceover-first pipeline:
 ```text
-RESEARCH ➔ SCRIPT ➔ STORYBOARD ➔ ELEVENLABS HANDOFF ➔ [HUMAN GENERATES VOICE] ➔ [HUMAN RETURNS AUDIO] ➔ AUDIO VERIFICATION ➔ SCENE TIMING ADJUSTMENT ➔ ANIMATION ➔ EDITING ➔ AUDIO MIXING ➔ FINAL RENDER ➔ QUALITY CONTROL ➔ DELIVERY
+AUDIENCE MODELING ➔ RESEARCH & MATH ➔ 3 HOOKS EVALUATED ➔ RETENTION SCRIPT (10-YR-OLD TEST) ➔ RETENTION MAP ➔ RETENTION QUALITY GATE (>=4) ➔ ELEVENLABS HANDOFF ➔ [HUMAN GENERATES VOICE] ➔ [HUMAN RETURNS AUDIO] ➔ AUDIO VERIFICATION ➔ SCENE TIMING CALIBRATION ➔ MASTER ANIMATION ➔ EDITING ➔ AUDIO MIXING (-16.5 LUFS) ➔ FINAL RENDER ➔ QUALITY CONTROL ➔ DELIVERY ➔ POST-PUBLICATION REVIEW
 ```
+
+### Core Retention Documents
+- **Master Manual:** [`retention_engine.md`](../retention_engine.md)
+- **Retention Map Template:** [`retention_map_template.md`](../retention_map_template.md)
+- **Post-Publication Analytics Review:** [`analytics/retention_review_template.md`](../analytics/retention_review_template.md)
+
+---
+
+## Key Production Commands
 
 ### 1. Mathematical Data Generation (Python)
 ```bash

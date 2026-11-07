@@ -557,6 +557,42 @@ Introduce a mandatory, permanent architectural upgrade to the ANYMYN production 
 - ANYMYN Pipeline V6 is officially codified as the permanent standard for all future video productions.
 - Ready to receive the next financial video topic request under the V6 voiceover-first workflow.
 
+---
+
+## [Task #14] ANYMYN Retention Engineering V1 — Maximize Viewer Retention, Watch Time, and Audience Satisfaction
+**Date/Timestamp:** 2026-11-07 14:35:00 IST  
+**Status:** Completed  
+
+### 1. Objective & Scope
+Introduce **Retention Engineering (V1)** as a permanent production discipline within ANYMYN. Upgrade the core skill, studio runbook, and templates to maximize viewer retention, watch time, and audience satisfaction without clickbait, artificial suspense, or chaotic editing. Enforce the central rule: *"The viewer must continuously receive a reason to stay."* Embed a rigorous, psychology-driven 15-phase pipeline that integrates Audience Modeling, Hook Engineering (3 alternative candidates evaluated), Curiosity Architecture & Open Loops, Micro-Payoffs, the 9-Column Retention Map, the 8-Category Retention Quality Gate ($\ge 4$ threshold), Platform-Specific Optimization (including post-Aug 24, 2026 YouTube metrics), and a Post-Publication Learning System with single-variable controlled experimentation.
+
+### 2. Changes Implemented
+- `retention_engine.md`: Authored comprehensive 12-section master manual documenting the philosophy, audience modeling questions, hook archetypes, curiosity rhythm (`QUESTION ➔ DEMONSTRATION ➔ EXPLANATION ➔ CONSEQUENCE ➔ NEW QUESTION ➔ PAYOFF`), visual retention questions, progressive disclosure, and platform-specific metrics.
+- `retention_map_template.md`: Created standardized template featuring the 9-column Retention Beat Ledger (Timestamp, Narration, Viewer Question, Info Delivered, Visual Action, Attention Mechanism, Micro-Payoff, Next Curiosity, Sound Design), Open Loop Tracker, and Retention Quality Gate Scorecard.
+- `analytics/retention_review_template.md`: Created post-publication performance diagnostic review template tracking views, engaged views, AVD, APV, stayed-to-watch %, shares/sends per reach, retention curve slope/dips/spikes, and controlled single-variable experimentation logs.
+- `.agents/skills/anymyn-finance-video-director/references/`: Mirrored `retention_engine.md`, `retention_map_template.md`, and `retention_review_template.md` to ensure the skill is fully self-contained and portable.
+- `.agents/skills/anymyn-finance-video-director/SKILL.md`: Upgraded to v4.0 (230 lines), integrating Retention Engineering Principles (Principle 11 & 12), the 15-phase production flow, the curious 10-year-old test, hook engineering rubric, the 8-category internal quality gate, and the expanded 11-item production deliverables package.
+- `studio/README.md`: Updated studio architecture runbook with Pipeline V7 retention workflow commands.
+- `workdone.md`: Appended `[Task #14]` in chronological order.
+
+### 3. Architectural Decisions & Invariants Preserved
+- **"Never Confuse Attention with Chaos":** Banned arbitrary fast cuts, fake cliffhangers, exaggerated sound effects, or deceptive hooks. Retention is achieved by delivering genuine value, micro-payoffs, and clear visual demonstrations.
+- **Curiosity-First Open Loop Contract:** Restricted active open loops to maximum 1–2 at a time; 100% of open loops must be closed before the video finishes. Stalling and artificial information withholding are prohibited.
+- **8-Category Retention Quality Gate:** Established a strict internal threshold ($\ge 4$ in Opening Strength, Clarity, Curiosity Pull, Progression, Visual Novelty, Density, Payoff, and Credibility) before submitting scripts for ElevenLabs voiceover.
+- **Preserved ElevenLabs Voiceover-First Workflow:** Retention design and mapping occur before voiceover generation; the human's ElevenLabs recording remains the authoritative timing source of truth.
+- **Preserved Immutable Backups:** Existing completed videos (`videos/the-invisible-cost/`, `videos/the-invisible-cost-v2/`, and `videos/the-invisible-cost-v5/`) remain untouched. Zero videos regenerated.
+- **Visual Identity Invariant:** Preserved the signature Unified Ivory Grid Studio (`StudioGridBackground.tsx`, `#F3EFE5` / `#FAF7F0` / `#E9DFC9`), cardless physical analogies, and -16.5 LUFS audio standards.
+
+### 4. Verification & Evidence
+- **Skill File Verification:** Verified `.agents/skills/anymyn-finance-video-director/SKILL.md` contains valid YAML frontmatter, version 4.0, and 230 lines.
+- **File Structure Verification:** Confirmed `retention_engine.md`, `retention_map_template.md`, and `analytics/retention_review_template.md` exist and are accessible at both project root and `.agents/skills/anymyn-finance-video-director/references/`.
+- **Git Status:** Clean working tree with existing video outputs intact.
+
+### 5. Current Progress & Next Steps
+- ANYMYN Pipeline V7 is permanently codified across all skill and studio documentation.
+- The studio is ready to apply Retention Engineering V1 to the next financial video production.
+
+
 
 
 
