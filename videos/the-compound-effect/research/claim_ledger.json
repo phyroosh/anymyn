@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "title": "The Compound Effect: 30-Year Wealth Accumulation",
+    "principal": 10000.0,
+    "rate": 0.1,
+    "duration_years": 30,
+    "compounding_frequency": "Annual",
+    "formula_compound": "A = P * (1 + r)^t",
+    "formula_simple": "A = P * (1 + r * t)",
+    "disclaimer": "Hypothetical mathematical illustration. Excludes taxes, fees, and market volatility. Not financial advice."
+  },
+  "milestones": {
+    "year_0": {
+      "compound": 10000.0,
+      "simple": 10000.0
+    },
+    "year_1": {
+      "compound": 11000.0,
+      "return": 1000.0
+    },
+    "year_2": {
+      "compound": 12100.0,
+      "return": 1100.0
+    },
+    "year_10": {
+      "compound": 25937.43,
+      "simple": 20000.0
+    },
+    "year_15": {
+      "compound": 41772.49,
+      "cumulative_growth": 31772.49,
+      "annual_return": 3797.5,
+      "simple": 25000.0
+    },
+    "year_20": {
+      "compound": 67275.01,
+      "simple": 30000.0
+    },
+    "year_30": {
+      "compound": 174494.06,
+      "simple": 40000.0,
+      "ratio_compound_to_simple": 4.36,
+      "multiplier_vs_principal": 17.45
+    }
+  },
+  "yearly_data": [
+    {
+      "year": 0,
+      "compound_balance": 10000.0,
+      "compound_growth": 0.0,
+      "compound_annual_return": 0.0,
+      "simple_balance": 10000.0,
+      "simple_growth": 0.0,
+      "simple_annual_return": 0.0,
+      "multiplier_vs_principal": 1.0,
+      "multiplier_vs_simple": 1.0
+    },
+    {
+      "year": 1,
+      "compound_balance": 11000.0,
+      "compound_growth": 1000.0,
+      "compound_annual_return": 1000.0,
+      "simple_balance": 11000.0,
+      "simple_growth": 1000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.1,
+      "multiplier_vs_simple": 1.0
+    },
+    {
+      "year": 2,
+      "compound_balance": 12100.0,
+      "compound_growth": 2100.0,
+      "compound_annual_return": 1100.0,
+      "simple_balance": 12000.0,
+      "simple_growth": 2000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.21,
+      "multiplier_vs_simple": 1.01
+    },
+    {
+      "year": 3,
+      "compound_balance": 13310.0,
+      "compound_growth": 3310.0,
+      "compound_annual_return": 1210.0,
+      "simple_balance": 13000.0,
+      "simple_growth": 3000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.33,
+      "multiplier_vs_simple": 1.02
+    },
+    {
+      "year": 4,
+      "compound_balance": 14641.0,
+      "compound_growth": 4641.0,
+      "compound_annual_return": 1331.0,
+      "simple_balance": 14000.0,
+      "simple_growth": 4000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.46,
+      "multiplier_vs_simple": 1.05
+    },
+    {
+      "year": 5,
+      "compound_balance": 16105.1,
+      "compound_growth": 6105.1,
+      "compound_annual_return": 1464.1,
+      "simple_balance": 15000.0,
+      "simple_growth": 5000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.61,
+      "multiplier_vs_simple": 1.07
+    },
+    {
+      "year": 6,
+      "compound_balance": 17715.61,
+      "compound_growth": 7715.61,
+      "compound_annual_return": 1610.51,
+      "simple_balance": 16000.0,
+      "simple_growth": 6000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.77,
+      "multiplier_vs_simple": 1.11
+    },
+    {
+      "year": 7,
+      "compound_balance": 19487.17,
+      "compound_growth": 9487.17,
+      "compound_annual_return": 1771.56,
+      "simple_balance": 17000.0,
+      "simple_growth": 7000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 1.95,
+      "multiplier_vs_simple": 1.15
+    },
+    {
+      "year": 8,
+      "compound_balance": 21435.89,
+      "compound_growth": 11435.89,
+      "compound_annual_return": 1948.72,
+      "simple_balance": 18000.0,
+      "simple_growth": 8000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 2.14,
+      "multiplier_vs_simple": 1.19
+    },
+    {
+      "year": 9,
+      "compound_balance": 23579.48,
+      "compound_growth": 13579.48,
+      "compound_annual_return": 2143.59,
+      "simple_balance": 19000.0,
+      "simple_growth": 9000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 2.36,
+      "multiplier_vs_simple": 1.24
+    },
+    {
+      "year": 10,
+      "compound_balance": 25937.43,
+      "compound_growth": 15937.43,
+      "compound_annual_return": 2357.95,
+      "simple_balance": 20000.0,
+      "simple_growth": 10000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 2.59,
+      "multiplier_vs_simple": 1.3
+    },
+    {
+      "year": 11,
+      "compound_balance": 28531.17,
+      "compound_growth": 18531.17,
+      "compound_annual_return": 2593.74,
+      "simple_balance": 21000.0,
+      "simple_growth": 11000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 2.85,
+      "multiplier_vs_simple": 1.36
+    },
+    {
+      "year": 12,
+      "compound_balance": 31384.29,
+      "compound_growth": 21384.29,
+      "compound_annual_return": 2853.12,
+      "simple_balance": 22000.0,
+      "simple_growth": 12000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 3.14,
+      "multiplier_vs_simple": 1.43
+    },
+    {
+      "year": 13,
+      "compound_balance": 34522.72,
+      "compound_growth": 24522.72,
+      "compound_annual_return": 3138.43,
+      "simple_balance": 23000.0,
+      "simple_growth": 13000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 3.45,
+      "multiplier_vs_simple": 1.5
+    },
+    {
+      "year": 14,
+      "compound_balance": 37974.99,
+      "compound_growth": 27974.99,
+      "compound_annual_return": 3452.27,
+      "simple_balance": 24000.0,
+      "simple_growth": 14000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 3.8,
+      "multiplier_vs_simple": 1.58
+    },
+    {
+      "year": 15,
+      "compound_balance": 41772.49,
+      "compound_growth": 31772.49,
+      "compound_annual_return": 3797.5,
+      "simple_balance": 25000.0,
+      "simple_growth": 15000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 4.18,
+      "multiplier_vs_simple": 1.67
+    },
+    {
+      "year": 16,
+      "compound_balance": 45949.74,
+      "compound_growth": 35949.74,
+      "compound_annual_return": 4177.25,
+      "simple_balance": 26000.0,
+      "simple_growth": 16000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 4.59,
+      "multiplier_vs_simple": 1.77
+    },
+    {
+      "year": 17,
+      "compound_balance": 50544.71,
+      "compound_growth": 40544.71,
+      "compound_annual_return": 4594.97,
+      "simple_balance": 27000.0,
+      "simple_growth": 17000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 5.05,
+      "multiplier_vs_simple": 1.87
+    },
+    {
+      "year": 18,
+      "compound_balance": 55599.18,
+      "compound_growth": 45599.18,
+      "compound_annual_return": 5054.47,
+      "simple_balance": 28000.0,
+      "simple_growth": 18000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 5.56,
+      "multiplier_vs_simple": 1.99
+    },
+    {
+      "year": 19,
+      "compound_balance": 61159.1,
+      "compound_growth": 51159.1,
+      "compound_annual_return": 5559.92,
+      "simple_balance": 29000.0,
+      "simple_growth": 19000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 6.12,
+      "multiplier_vs_simple": 2.11
+    },
+    {
+      "year": 20,
+      "compound_balance": 67275.01,
+      "compound_growth": 57275.01,
+      "compound_annual_return": 6115.91,
+      "simple_balance": 30000.0,
+      "simple_growth": 20000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 6.73,
+      "multiplier_vs_simple": 2.24
+    },
+    {
+      "year": 21,
+      "compound_balance": 74002.51,
+      "compound_growth": 64002.51,
+      "compound_annual_return": 6727.5,
+      "simple_balance": 31000.0,
+      "simple_growth": 21000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 7.4,
+      "multiplier_vs_simple": 2.39
+    },
+    {
+      "year": 22,
+      "compound_balance": 81402.76,
+      "compound_growth": 71402.76,
+      "compound_annual_return": 7400.25,
+      "simple_balance": 32000.0,
+      "simple_growth": 22000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 8.14,
+      "multiplier_vs_simple": 2.54
+    },
+    {
+      "year": 23,
+      "compound_balance": 89543.04,
+      "compound_growth": 79543.04,
+      "compound_annual_return": 8140.28,
+      "simple_balance": 33000.0,
+      "simple_growth": 23000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 8.95,
+      "multiplier_vs_simple": 2.71
+    },
+    {
+      "year": 24,
+      "compound_balance": 98497.34,
+      "compound_growth": 88497.34,
+      "compound_annual_return": 8954.3,
+      "simple_balance": 34000.0,
+      "simple_growth": 24000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 9.85,
+      "multiplier_vs_simple": 2.9
+    },
+    {
+      "year": 25,
+      "compound_balance": 108347.07,
+      "compound_growth": 98347.07,
+      "compound_annual_return": 9849.73,
+      "simple_balance": 35000.0,
+      "simple_growth": 25000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 10.83,
+      "multiplier_vs_simple": 3.1
+    },
+    {
+      "year": 26,
+      "compound_balance": 119181.78,
+      "compound_growth": 109181.78,
+      "compound_annual_return": 10834.71,
+      "simple_balance": 36000.0,
+      "simple_growth": 26000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 11.92,
+      "multiplier_vs_simple": 3.31
+    },
+    {
+      "year": 27,
+      "compound_balance": 131099.96,
+      "compound_growth": 121099.96,
+      "compound_annual_return": 11918.18,
+      "simple_balance": 37000.0,
+      "simple_growth": 27000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 13.11,
+      "multiplier_vs_simple": 3.54
+    },
+    {
+      "year": 28,
+      "compound_balance": 144209.96,
+      "compound_growth": 134209.96,
+      "compound_annual_return": 13110.0,
+      "simple_balance": 38000.0,
+      "simple_growth": 28000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 14.42,
+      "multiplier_vs_simple": 3.79
+    },
+    {
+      "year": 29,
+      "compound_balance": 158630.96,
+      "compound_growth": 148630.96,
+      "compound_annual_return": 14421.0,
+      "simple_balance": 39000.0,
+      "simple_growth": 29000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 15.86,
+      "multiplier_vs_simple": 4.07
+    },
+    {
+      "year": 30,
+      "compound_balance": 174494.06,
+      "compound_growth": 164494.06,
+      "compound_annual_return": 15863.1,
+      "simple_balance": 40000.0,
+      "simple_growth": 30000.0,
+      "simple_annual_return": 1000.0,
+      "multiplier_vs_principal": 17.45,
+      "multiplier_vs_simple": 4.36
+    }
+  ]
+}

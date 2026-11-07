@@ -1,0 +1,74 @@
+[
+  {
+    "id": "scene1",
+    "start_sec": 0.0,
+    "end_sec": 8.5,
+    "vo_delay_sec": 0.3,
+    "text": "What if your money could earn money? Not just once... but over and over again, until the returns begin working for you?",
+    "rate": "+2%",
+    "start_frame": 0,
+    "duration_frames": 255,
+    "duration_sec": 7.896,
+    "file": "videos/the-compound-effect/audio/scene1_vo.mp3"
+  },
+  {
+    "id": "scene2",
+    "start_sec": 8.5,
+    "end_sec": 19.5,
+    "vo_delay_sec": 8.8,
+    "text": "Imagine ten thousand dollars. Left alone in a vault, it remains static. But invested at ten percent, a powerful transformation begins.",
+    "rate": "+10%",
+    "start_frame": 255,
+    "duration_frames": 330,
+    "duration_sec": 10.056,
+    "file": "videos/the-compound-effect/audio/scene2_vo.mp3"
+  },
+  {
+    "id": "scene3",
+    "start_sec": 19.5,
+    "end_sec": 33.5,
+    "vo_delay_sec": 19.8,
+    "text": "In year one, your capital generates one thousand dollars. Leave it invested, and your working base becomes eleven thousand. In year two, you earn eleven hundred. The return itself has become capital.",
+    "rate": "+14%",
+    "start_frame": 585,
+    "duration_frames": 420,
+    "duration_sec": 13.032,
+    "file": "videos/the-compound-effect/audio/scene3_vo.mp3"
+  },
+  {
+    "id": "scene4",
+    "start_sec": 33.5,
+    "end_sec": 47.5,
+    "vo_delay_sec": 33.8,
+    "text": "Early on, progress feels quiet. After ten years, you have twenty-six thousand dollars. But by year fifteen, capital has quadrupled to forty-one thousand\u2014and every single year now adds thousands more.",
+    "rate": "+14%",
+    "start_frame": 1005,
+    "duration_frames": 420,
+    "duration_sec": 13.128,
+    "file": "videos/the-compound-effect/audio/scene4_vo.mp3"
+  },
+  {
+    "id": "scene5",
+    "start_sec": 47.5,
+    "end_sec": 62.5,
+    "vo_delay_sec": 47.8,
+    "text": "Here is the divergence. Simple interest pays only on your original deposit\u2014a flat climb to forty thousand dollars. But compounding pays on everything you have ever earned. That divergence creates a four-point-three-six times explosion.",
+    "rate": "+14%",
+    "start_frame": 1425,
+    "duration_frames": 450,
+    "duration_sec": 14.328,
+    "file": "videos/the-compound-effect/audio/scene5_vo.mp3"
+  },
+  {
+    "id": "scene6",
+    "start_sec": 62.5,
+    "end_sec": 76.0,
+    "vo_delay_sec": 62.8,
+    "text": "Thirty years. Ten thousand dollars becomes over one hundred and seventy-four thousand. In finance, time is not just a waiting room. When returns become capital... time is the multiplier.",
+    "rate": "+14%",
+    "start_frame": 1875,
+    "duration_frames": 405,
+    "duration_sec": 12.24,
+    "file": "videos/the-compound-effect/audio/scene6_vo.mp3"
+  }
+]
