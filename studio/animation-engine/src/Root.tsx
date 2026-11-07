@@ -4,10 +4,32 @@ import { CompoundingCinematic } from './compositions/CompoundingCinematic';
 import { CompoundingProof } from './compositions/CompoundingProof';
 import { LookDevV2 } from './compositions/lookdev/LookDevV2';
 import { LookDevV3 } from './compositions/lookdev3/LookDevV3';
+import { LookDevV4 } from './compositions/lookdev4/LookDevV4';
+import { TheCompoundEffectMaster } from './compositions/the-compound-effect/TheCompoundEffectMaster';
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* 14.0-second V4 Typography & Editing Overhaul (Mobile-Readable Monumental Motion Design) */}
+      <Composition
+        id="LookDevV4"
+        component={LookDevV4}
+        durationInFrames={420}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* 76.0-second Full Video Production: The Compound Effect (6 Distinct Cinematic Worlds) */}
+      <Composition
+        id="TheCompoundEffectMaster"
+        component={TheCompoundEffectMaster}
+        durationInFrames={2280}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
       {/* 14.0-second V3 Creative Evolution Test (4 Distinct Cinematic Shots) */}
       <Composition
         id="LookDevV3"
