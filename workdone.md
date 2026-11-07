@@ -517,6 +517,47 @@ Refine engineering architecture and implement **Visual Identity V5.1** for the 6
 - All deliverables are organized and preserved in `videos/the-invisible-cost-v5/`.
 - Workspace is ready for user review and playback.
 
+---
+
+## [Task #13] ANYMYN Pipeline V6 — ElevenLabs Human Voiceover Integration & Voiceover-First Workflow
+**Date/Timestamp:** 2026-11-07 13:55:00 IST  
+**Status:** Completed  
+
+### 1. Objective & Scope
+Introduce a mandatory, permanent architectural upgrade to the ANYMYN production pipeline: **The ElevenLabs Human Voiceover Integration & Voiceover-First Workflow (Pipeline V6)**. Establish a strict **Human Voiceover Approval Gate** ensuring that the user personally controls the narration voice using ElevenLabs. The agent prepares the research, conversational script, and storyboard, compiles a clean copy-paste handoff package, stops production, waits for the user's ElevenLabs audio recording, and uses that real audio as the sole authoritative source of truth for scene durations and animation timing. Preserve all existing completed videos (V1, V2, V5.1) and creative direction (warm ivory light studio, perspective grid-gradient background, monumental serif typography, cardless physical metaphors, financial precision, and broadcast sound standards).
+
+### 2. Changes Implemented
+- `.agents/skills/anymyn-finance-video-director/SKILL.md`: Upgraded to v3.0 (301 lines), codifying the permanent V6 voiceover-first production flow:
+  - **Principle 9 & 10:** Codified the mandatory Human Voiceover Approval Gate and established that recorded audio is the timing master.
+  - **Phase A (Research, Script & Storyboard):** Mandated the "Curious 10-Year-Old Test", conversational delivery, short sentences, plain language, and natural spoken formatting for numbers and currencies (e.g. "ten thousand dollars at ten percent").
+  - **Phase B (ElevenLabs Voiceover Handoff Package):** Specified standardized structure in `videos/<video-slug>/voiceover/`:
+    - `elevenlabs_script.txt`: Spoken words only (no headings, scene numbers, timestamps, speaker tags, or bracketed directions).
+    - `voiceover_direction.md`: Voice character (warm, intelligent, confident, natural, trustworthy), pacing, pauses, and emphasis guidance.
+    - `scene_narration_map.md`: Provisional duration mapping, emotion, visual concept, and emphasis words.
+    - `pronunciation_notes.md`: Dedicated pronunciation guide for complex terms and acronyms.
+  - **Phase C (Present Handoff & Mandatory Stop Condition):** Clear chat presentation with word count, estimated duration, and 1-click copyable script block. Enforced strict STOP rule: no fallback TTS generation, no complete video rendering, and no assuming scene durations before user returns audio.
+  - **Phase D (Receive & Verify ElevenLabs Audio):** Preserves original audio at `videos/<video-slug>/audio/voiceover_elevenlabs_original.<ext>`. Validates codec, duration, sample rate, channels, silence, and completeness against script.
+  - **Phase E (Audio as Timing Source of Truth):** Remotion frame durations ($F = \text{round}(T_{\text{sec}} \times 30)$) calculated from actual sentence boundaries and pauses. No artificial voice acceleration or silent cuts.
+  - **Phase F, G, H & Deliverables:** Synchronized video production, professional audio mixing (-16.5 LUFS), multimodal visual inspection (12-milestone contact sheets), and complete 10-item production package delivery.
+- `studio/README.md`: Updated studio architecture runbook, deprecating edge-tts from production and embedding the V6 ElevenLabs voiceover-first workflow commands.
+- `workdone.md`: Appended `[Task #13]` in chronological order.
+
+### 3. Architectural Decisions & Invariants Preserved
+- **Mandatory Human Approval Gate:** Production strictly halts at Phase C. Zero autonomous synthetic voice generation is permitted as a substitute for human-directed ElevenLabs audio.
+- **Audio-Driven Scene Timing:** Animation timelines, easing curves, and camera transitions are derived from the real human speech rhythm, eliminating mismatched pacing or voice distortion.
+- **Preservation of Completed Work:** V1 (`videos/the-invisible-cost/`), V2 (`videos/the-invisible-cost-v2/`), and V5.1 (`videos/the-invisible-cost-v5/`) remain completely untouched.
+- **Unified Visual Identity Preserved:** The signature Ivory Grid Studio (`StudioGridBackground.tsx`, `#F3EFE5` / `#FAF7F0` / `#E9DFC9`), cardless physical analogies, monumental typography, and -16.5 LUFS acoustic mastering remain permanent visual standards.
+
+### 4. Verification & Evidence
+- **Skill File Verification:** Verified `.agents/skills/anymyn-finance-video-director/SKILL.md` contains valid YAML frontmatter, version 3.0, and 301 lines.
+- **Studio Runbook Verification:** Confirmed `studio/README.md` reflects V6 ElevenLabs voiceover-first commands.
+- **Git Status:** Verified existing videos and renders remain preserved and intact.
+
+### 5. Current Progress & Next Steps
+- ANYMYN Pipeline V6 is officially codified as the permanent standard for all future video productions.
+- Ready to receive the next financial video topic request under the V6 voiceover-first workflow.
+
+
 
 
 

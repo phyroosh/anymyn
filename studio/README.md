@@ -15,7 +15,6 @@ studio/
 │   └── src/
 │       ├── Root.tsx        # Composition definitions
 │       ├── index.ts        # Remotion bundle registration
-│       ├── assets/         # Typed curve datasets and JSON models
 │       └── compositions/   # Scene animation components
 ├── python-tools/           # Isolated Python virtual environment (.venv)
 │   ├── math/               # Financial modeling and SVG coordinate generators
@@ -27,32 +26,45 @@ studio/
 └── renders/                # Final broadcast-ready MP4 deliverables
 ```
 
-## Production Commands
+---
+
+## Production Pipeline V6: ElevenLabs Voiceover-First Workflow
+
+All production follows the linear voiceover-first pipeline:
+```text
+RESEARCH ➔ SCRIPT ➔ STORYBOARD ➔ ELEVENLABS HANDOFF ➔ [HUMAN GENERATES VOICE] ➔ [HUMAN RETURNS AUDIO] ➔ AUDIO VERIFICATION ➔ SCENE TIMING ADJUSTMENT ➔ ANIMATION ➔ EDITING ➔ AUDIO MIXING ➔ FINAL RENDER ➔ QUALITY CONTROL ➔ DELIVERY
+```
 
 ### 1. Mathematical Data Generation (Python)
 ```bash
-studio/python-tools/.venv/bin/python studio/python-tools/math/compounding_curve.py
+python3 videos/<video-slug>/research/verify_calculations.py
 ```
 
-### 2. Voiceover Generation (Edge TTS)
-```bash
-edge-tts --voice en-US-ChristopherNeural --text "<narration>" --write-media studio/audio/narration.mp3
-```
+### 2. ElevenLabs Voiceover Handoff (Mandatory Human Approval Gate)
+- Agent prepares `videos/<video-slug>/voiceover/elevenlabs_script.txt` (clean spoken text, numbers spelled out).
+- Agent presents handoff package in chat and **stops production**.
+- User generates voiceover in ElevenLabs and exports voice-only track (`voiceover_elevenlabs.wav` or `.mp3`).
+- Audio is returned to `videos/<video-slug>/audio/voiceover_elevenlabs_original.<ext>`.
 
-### 3. Remotion Studio (Interactive Preview)
+### 3. Scene Timing Synchronization (Audio = Source of Truth)
+- Scene frame durations are calculated directly from sentence boundaries and natural pauses in the real ElevenLabs recording.
+
+### 4. Remotion Studio (Interactive Preview)
 ```bash
 cd studio/animation-engine && npm run preview
 ```
 
-### 4. Headless Video Render (Remotion CLI)
+### 5. Headless Video Render (Remotion CLI)
 ```bash
 cd studio/animation-engine
-./node_modules/.bin/remotion render src/index.ts CompoundingProof ../renders/compounding_proof.mp4
+npx remotion render <CompositionId> ../../videos/<video-slug>/renders/<video-slug>_master.mp4
 ```
 
-### 5. Quality Inspection (FFprobe & Contact Sheet)
+### 6. Quality Inspection (FFprobe & Contact Sheet)
 ```bash
-ffprobe -v error -show_format -show_streams -of json studio/renders/compounding_proof.mp4
-ffmpeg -y -i studio/renders/compounding_proof.mp4 -vf "select='eq(n\,15)+eq(n\,60)+eq(n\,120)+eq(n\,165)+eq(n\,220)+eq(n\,260)'" -vsync vfr studio/qc/frames/proof_frame_%03d.png
-ffmpeg -y -i studio/qc/frames/proof_frame_%03d.png -vf "scale=360:640,tile=3x2:margin=10:padding=10:color=black" studio/qc/contact_sheet.png
+# Stream metadata inspection
+ffprobe -v error -show_format -show_streams -of json videos/<video-slug>/renders/<video-slug>_master.mp4
+
+# EBU R128 loudness check (-16.5 LUFS target)
+ffmpeg -i videos/<video-slug>/renders/<video-slug>_master.mp4 -filter:a ebur128 -f null -
 ```
