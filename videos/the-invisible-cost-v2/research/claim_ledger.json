@@ -1,0 +1,18 @@
+{
+  "model": "Hypothetical annual compounding at 3.0% constant rate over 20 years",
+  "initial_banknote": "$100.00",
+  "initial_basket_cost": "$100.00",
+  "year_6_basket": "$119.41",
+  "year_6_power": "$83.75",
+  "year_10_basket": "$134.39",
+  "year_10_power": "$74.41",
+  "year_20_basket": "$180.61",
+  "year_20_power": "$55.37",
+  "year_20_power_retained_pct": "55.4%",
+  "year_20_power_lost_pct": "44.6%",
+  "approximate_conversational_claims": {
+    "basket_future_cost": "About 181 dollars ($180.61 exact)",
+    "basket_purchasing_power": "About 55% of that basket (55.4% exact)",
+    "negative_check": "Strictly NOT 'cut in half'; purchasing power is 55.4%, loss is 44.6%"
+  }
+}

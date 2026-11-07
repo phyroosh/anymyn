@@ -6,10 +6,32 @@ import { LookDevV2 } from './compositions/lookdev/LookDevV2';
 import { LookDevV3 } from './compositions/lookdev3/LookDevV3';
 import { LookDevV4 } from './compositions/lookdev4/LookDevV4';
 import { TheCompoundEffectMaster } from './compositions/the-compound-effect/TheCompoundEffectMaster';
+import { TheInvisibleCostMaster } from './compositions/the-invisible-cost/TheInvisibleCostMaster';
+import { TheInvisibleCostV2Master } from './compositions/the-invisible-cost-v2/TheInvisibleCostV2Master';
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* 69.0-second Full Video Production: The Invisible Cost V2 (Simplified & Focused) */}
+      <Composition
+        id="TheInvisibleCostV2Master"
+        component={TheInvisibleCostV2Master}
+        durationInFrames={2070}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* 69.0-second Full Video Production: The Invisible Cost (V1 Original Backup) */}
+      <Composition
+        id="TheInvisibleCostMaster"
+        component={TheInvisibleCostMaster}
+        durationInFrames={2070}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
       {/* 14.0-second V4 Typography & Editing Overhaul (Mobile-Readable Monumental Motion Design) */}
       <Composition
         id="LookDevV4"

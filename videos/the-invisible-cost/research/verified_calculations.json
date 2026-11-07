@@ -1,0 +1,179 @@
+{
+  "starting_principal": 100.0,
+  "annual_inflation_rate": 0.03,
+  "years": 20,
+  "future_price_level_factor": 1.8061,
+  "basket_cost_year_20": 180.61,
+  "purchasing_power_year_20": 55.37,
+  "pct_loss_year_20": 44.63,
+  "timeline": [
+    {
+      "year": 0,
+      "price_factor_exact": "1",
+      "price_factor_rounded": 1.0,
+      "cost_of_today_100_basket": 100.0,
+      "purchasing_power_of_100_bill": 100.0,
+      "pct_purchasing_power_lost": 0.0
+    },
+    {
+      "year": 1,
+      "price_factor_exact": "1.03",
+      "price_factor_rounded": 1.03,
+      "cost_of_today_100_basket": 103.0,
+      "purchasing_power_of_100_bill": 97.09,
+      "pct_purchasing_power_lost": 2.91
+    },
+    {
+      "year": 2,
+      "price_factor_exact": "1.0609",
+      "price_factor_rounded": 1.0609,
+      "cost_of_today_100_basket": 106.09,
+      "purchasing_power_of_100_bill": 94.26,
+      "pct_purchasing_power_lost": 5.74
+    },
+    {
+      "year": 3,
+      "price_factor_exact": "1.092727",
+      "price_factor_rounded": 1.0927,
+      "cost_of_today_100_basket": 109.27,
+      "purchasing_power_of_100_bill": 91.51,
+      "pct_purchasing_power_lost": 8.49
+    },
+    {
+      "year": 4,
+      "price_factor_exact": "1.12550881",
+      "price_factor_rounded": 1.1255,
+      "cost_of_today_100_basket": 112.55,
+      "purchasing_power_of_100_bill": 88.85,
+      "pct_purchasing_power_lost": 11.15
+    },
+    {
+      "year": 5,
+      "price_factor_exact": "1.1592740743",
+      "price_factor_rounded": 1.1593,
+      "cost_of_today_100_basket": 115.93,
+      "purchasing_power_of_100_bill": 86.26,
+      "pct_purchasing_power_lost": 13.74
+    },
+    {
+      "year": 6,
+      "price_factor_exact": "1.194052296529",
+      "price_factor_rounded": 1.1941,
+      "cost_of_today_100_basket": 119.41,
+      "purchasing_power_of_100_bill": 83.75,
+      "pct_purchasing_power_lost": 16.25
+    },
+    {
+      "year": 7,
+      "price_factor_exact": "1.22987386542487",
+      "price_factor_rounded": 1.2299,
+      "cost_of_today_100_basket": 122.99,
+      "purchasing_power_of_100_bill": 81.31,
+      "pct_purchasing_power_lost": 18.69
+    },
+    {
+      "year": 8,
+      "price_factor_exact": "1.2667700813876161",
+      "price_factor_rounded": 1.2668,
+      "cost_of_today_100_basket": 126.68,
+      "purchasing_power_of_100_bill": 78.94,
+      "pct_purchasing_power_lost": 21.06
+    },
+    {
+      "year": 9,
+      "price_factor_exact": "1.304773183829244583",
+      "price_factor_rounded": 1.3048,
+      "cost_of_today_100_basket": 130.48,
+      "purchasing_power_of_100_bill": 76.64,
+      "pct_purchasing_power_lost": 23.36
+    },
+    {
+      "year": 10,
+      "price_factor_exact": "1.34391637934412192049",
+      "price_factor_rounded": 1.3439,
+      "cost_of_today_100_basket": 134.39,
+      "purchasing_power_of_100_bill": 74.41,
+      "pct_purchasing_power_lost": 25.59
+    },
+    {
+      "year": 11,
+      "price_factor_exact": "1.3842338707244455781047",
+      "price_factor_rounded": 1.3842,
+      "cost_of_today_100_basket": 138.42,
+      "purchasing_power_of_100_bill": 72.24,
+      "pct_purchasing_power_lost": 27.76
+    },
+    {
+      "year": 12,
+      "price_factor_exact": "1.425760886846178945447841",
+      "price_factor_rounded": 1.4258,
+      "cost_of_today_100_basket": 142.58,
+      "purchasing_power_of_100_bill": 70.14,
+      "pct_purchasing_power_lost": 29.86
+    },
+    {
+      "year": 13,
+      "price_factor_exact": "1.46853371345156431381127623",
+      "price_factor_rounded": 1.4685,
+      "cost_of_today_100_basket": 146.85,
+      "purchasing_power_of_100_bill": 68.1,
+      "pct_purchasing_power_lost": 31.9
+    },
+    {
+      "year": 14,
+      "price_factor_exact": "1.5125897248551112432256145169",
+      "price_factor_rounded": 1.5126,
+      "cost_of_today_100_basket": 151.26,
+      "purchasing_power_of_100_bill": 66.11,
+      "pct_purchasing_power_lost": 33.89
+    },
+    {
+      "year": 15,
+      "price_factor_exact": "1.557967416600764580522382952407",
+      "price_factor_rounded": 1.558,
+      "cost_of_today_100_basket": 155.8,
+      "purchasing_power_of_100_bill": 64.19,
+      "pct_purchasing_power_lost": 35.81
+    },
+    {
+      "year": 16,
+      "price_factor_exact": "1.6047064390987875179380544409792",
+      "price_factor_rounded": 1.6047,
+      "cost_of_today_100_basket": 160.47,
+      "purchasing_power_of_100_bill": 62.32,
+      "pct_purchasing_power_lost": 37.68
+    },
+    {
+      "year": 17,
+      "price_factor_exact": "1.6528476322717511434761960742086",
+      "price_factor_rounded": 1.6528,
+      "cost_of_today_100_basket": 165.28,
+      "purchasing_power_of_100_bill": 60.5,
+      "pct_purchasing_power_lost": 39.5
+    },
+    {
+      "year": 18,
+      "price_factor_exact": "1.7024330612399036777804819564348",
+      "price_factor_rounded": 1.7024,
+      "cost_of_today_100_basket": 170.24,
+      "purchasing_power_of_100_bill": 58.74,
+      "pct_purchasing_power_lost": 41.26
+    },
+    {
+      "year": 19,
+      "price_factor_exact": "1.7535060530771007881138964151279",
+      "price_factor_rounded": 1.7535,
+      "cost_of_today_100_basket": 175.35,
+      "purchasing_power_of_100_bill": 57.03,
+      "pct_purchasing_power_lost": 42.97
+    },
+    {
+      "year": 20,
+      "price_factor_exact": "1.8061112346694138117573133075817",
+      "price_factor_rounded": 1.8061,
+      "cost_of_today_100_basket": 180.61,
+      "purchasing_power_of_100_bill": 55.37,
+      "pct_purchasing_power_lost": 44.63
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "scene1",
+    "start_sec": 0.0,
+    "end_sec": 10.5,
+    "vo_delay_sec": 0.2,
+    "text": "Look at a one-hundred-dollar bill. It feels solid. Permanent. But beneath the surface... an invisible force is quietly eroding what it can buy.",
+    "rate": "+16%",
+    "start_frame": 0,
+    "duration_frames": 315,
+    "duration_sec": 9.936,
+    "file": "videos/the-invisible-cost/audio/scene1_vo.mp3"
+  },
+  {
+    "id": "scene2",
+    "start_sec": 10.5,
+    "end_sec": 24.0,
+    "vo_delay_sec": 10.7,
+    "text": "Imagine holding one hundred dollars today. It buys a full basket of goods. Step twenty years ahead: the bill is physically unchanged, but the prices around it have surged. It cannot buy that same basket.",
+    "rate": "+18%",
+    "start_frame": 315,
+    "duration_frames": 405,
+    "duration_sec": 12.936,
+    "file": "videos/the-invisible-cost/audio/scene2_vo.mp3"
+  },
+  {
+    "id": "scene3",
+    "start_sec": 24.0,
+    "end_sec": 34.5,
+    "vo_delay_sec": 24.2,
+    "text": "This is inflation: a persistent rise in the general price level. While your account shows the exact same nominal number, each dollar commands fewer real goods in the marketplace.",
+    "rate": "+18%",
+    "start_frame": 720,
+    "duration_frames": 315,
+    "duration_sec": 9.624,
+    "file": "videos/the-invisible-cost/audio/scene3_vo.mp3"
+  },
+  {
+    "id": "scene4",
+    "start_sec": 34.5,
+    "end_sec": 48.0,
+    "vo_delay_sec": 34.7,
+    "text": "At three percent annual inflation, twenty years pushes prices up eighty percent. What cost one hundred dollars now costs one hundred and eighty. Your hundred-dollar bill now buys just fifty-five dollars and thirty-seven cents.",
+    "rate": "+18%",
+    "start_frame": 1035,
+    "duration_frames": 405,
+    "duration_sec": 12.72,
+    "file": "videos/the-invisible-cost/audio/scene4_vo.mp3"
+  },
+  {
+    "id": "scene5",
+    "start_sec": 48.0,
+    "end_sec": 60.0,
+    "vo_delay_sec": 48.2,
+    "text": "Here is the invisible cost. Your bank balance did not drop. But nearly half of its real purchasing power quietly dissolved into thin air. Inflation takes what your money can do.",
+    "rate": "+18%",
+    "start_frame": 1440,
+    "duration_frames": 360,
+    "duration_sec": 11.328,
+    "file": "videos/the-invisible-cost/audio/scene5_vo.mp3"
+  },
+  {
+    "id": "scene6",
+    "start_sec": 60.0,
+    "end_sec": 69.0,
+    "vo_delay_sec": 60.2,
+    "text": "True wealth is not measured in the paper you hold. It is measured in what that paper can buy. Never mistake the number for the power.",
+    "rate": "+14%",
+    "start_frame": 1800,
+    "duration_frames": 270,
+    "duration_sec": 8.136,
+    "file": "videos/the-invisible-cost/audio/scene6_vo.mp3"
+  }
+]

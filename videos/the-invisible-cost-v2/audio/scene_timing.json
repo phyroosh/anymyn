@@ -1,0 +1,74 @@
+[
+  {
+    "id": "scene1",
+    "start_sec": 0.0,
+    "end_sec": 8.0,
+    "vo_delay_sec": 0.4,
+    "text": "Imagine you have one hundred dollars.",
+    "rate": "+6%",
+    "start_frame": 0,
+    "duration_frames": 240,
+    "duration_sec": 2.784,
+    "file": "videos/the-invisible-cost-v2/audio/scene1_vo.mp3"
+  },
+  {
+    "id": "scene2",
+    "start_sec": 8.0,
+    "end_sec": 18.0,
+    "vo_delay_sec": 8.5,
+    "text": "Today, it can buy you a basket of things you need.",
+    "rate": "+8%",
+    "start_frame": 240,
+    "duration_frames": 300,
+    "duration_sec": 3.48,
+    "file": "videos/the-invisible-cost-v2/audio/scene2_vo.mp3"
+  },
+  {
+    "id": "scene3",
+    "start_sec": 18.0,
+    "end_sec": 35.0,
+    "vo_delay_sec": 18.4,
+    "text": "Now imagine coming back twenty years later. The same basket costs much more. But your hundred-dollar note still says one hundred dollars. Why? Because prices have been rising little by little, year after year. That's inflation.",
+    "rate": "+18%",
+    "start_frame": 540,
+    "duration_frames": 510,
+    "duration_sec": 15.096,
+    "file": "videos/the-invisible-cost-v2/audio/scene3_vo.mp3"
+  },
+  {
+    "id": "scene4",
+    "start_sec": 35.0,
+    "end_sec": 47.0,
+    "vo_delay_sec": 35.4,
+    "text": "Let's say prices rise by 3% every year. After twenty years, that same basket would cost about 181 dollars.",
+    "rate": "+10%",
+    "start_frame": 1050,
+    "duration_frames": 360,
+    "duration_sec": 8.712,
+    "file": "videos/the-invisible-cost-v2/audio/scene4_vo.mp3"
+  },
+  {
+    "id": "scene5",
+    "start_sec": 47.0,
+    "end_sec": 59.0,
+    "vo_delay_sec": 47.4,
+    "text": "So your 100 dollars would now buy only about 55% of that basket. Your money didn't disappear. It just can't buy as much as before.",
+    "rate": "+12%",
+    "start_frame": 1410,
+    "duration_frames": 360,
+    "duration_sec": 9.312,
+    "file": "videos/the-invisible-cost-v2/audio/scene5_vo.mp3"
+  },
+  {
+    "id": "scene6",
+    "start_sec": 59.0,
+    "end_sec": 69.0,
+    "vo_delay_sec": 59.4,
+    "text": "That's why the number in your wallet isn't the whole story. What that money can buy matters too.",
+    "rate": "+10%",
+    "start_frame": 1770,
+    "duration_frames": 300,
+    "duration_sec": 5.832,
+    "file": "videos/the-invisible-cost-v2/audio/scene6_vo.mp3"
+  }
+]

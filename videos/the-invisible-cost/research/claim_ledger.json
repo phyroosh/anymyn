@@ -1,0 +1,69 @@
+{
+  "project": "ANYMYN — The Invisible Cost",
+  "topic": "Inflation and Purchasing Power",
+  "audit_timestamp": "2026-11-07T11:25:00+05:30",
+  "claims": [
+    {
+      "claim_id": "CLM-001",
+      "statement": "Inflation describes an increase in the general price level across the economy.",
+      "category": "Definition",
+      "verification_status": "verified",
+      "primary_sources": [
+        "Federal Reserve System (Education / FAQs)",
+        "International Monetary Fund (IMF) - What is Inflation?",
+        "Bureau of Labor Statistics (BLS) Consumer Price Index Methodology"
+      ],
+      "qualification": "Inflation measures the aggregate change in prices of a basket of consumer goods and services, rather than a uniform increase across every single individual product."
+    },
+    {
+      "claim_id": "CLM-002",
+      "statement": "Purchasing power describes the quantity of goods and services that can be purchased with a given unit or nominal amount of money.",
+      "category": "Definition",
+      "verification_status": "verified",
+      "primary_sources": [
+        "Federal Reserve Bank of St. Louis (FRED Economic Data)",
+        "OECD Glossary of Statistical Terms"
+      ],
+      "qualification": "When the general price level rises, each monetary unit buys fewer goods and services; hence, purchasing power declines."
+    },
+    {
+      "claim_id": "CLM-003",
+      "statement": "At a constant 3% annual compound inflation rate, the general price level rises by approximately 80.6% over 20 years (factor (1.03)^20 ≈ 1.8061).",
+      "category": "Mathematical Model",
+      "verification_status": "verified",
+      "formula": "Price_Level_20 = (1 + 0.03)^20 = 1.806111234669298...",
+      "qualification": "Hypothetical illustration assuming annual compounding without mid-year fluctuations. Not an economic forecast."
+    },
+    {
+      "claim_id": "CLM-004",
+      "statement": "A basket of goods priced at $100.00 today would cost $180.61 after 20 years under a constant 3% annual inflation rate.",
+      "category": "Mathematical Model",
+      "verification_status": "verified",
+      "formula": "Cost_20 = $100 * (1.03)^20 = $180.61",
+      "qualification": "Assumes identical basket composition across 20 years. Subject to substitution effects in real consumer behavior."
+    },
+    {
+      "claim_id": "CLM-005",
+      "statement": "The purchasing power of a fixed $100.00 banknote after 20 years, measured in today's base-year dollars, shrinks to $55.37.",
+      "category": "Mathematical Model",
+      "verification_status": "verified",
+      "formula": "Purchasing_Power_20 = $100 / (1.03)^20 = $55.36755... -> $55.37",
+      "qualification": "Nominal money remains $100.00; real purchasing power contracts by 44.63%."
+    },
+    {
+      "claim_id": "CLM-006",
+      "statement": "Money is not just about the nominal amount possessed; it is fundamentally about what that money can buy.",
+      "category": "Economic Principle",
+      "verification_status": "verified",
+      "primary_sources": [
+        "Adam Smith, The Wealth of Nations (1776) - Nominal vs Real Price",
+        "Irving Fisher, The Purchasing Power of Money (1911)"
+      ],
+      "qualification": "Core philosophical takeaway emphasizing real versus nominal economic values."
+    }
+  ],
+  "disclaimers": {
+    "required_in_video": true,
+    "text": "Hypothetical 3% annual compound inflation model over 20 years. Illustrative of price-level effects; individual goods and actual inflation rates vary. Educational analysis only, not financial advice."
+  }
+}

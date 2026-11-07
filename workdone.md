@@ -11,6 +11,8 @@
 - [Task 6: Visual Direction V2 - Look-Development Test for Professional Video Editing](#task-6-visual-direction-v2---look-development-test-for-professional-video-editing)
 - [Task 7: Creative Evolution V3 - Cinematic Financial Storytelling Benchmark](#task-7-creative-evolution-v3---cinematic-financial-storytelling-benchmark)
 - [Task 8: Full Video Production — The Compound Effect (76s Master Video)](#task-8-full-video-production--the-compound-effect-76s-master-video)
+- [Task 9: Typography & Editing Overhaul V4 — Elimination of Presentation / Magazine Aesthetic](#task-9-typography--editing-overhaul-v4--elimination-of-presentation--magazine-aesthetic)
+- [Task 10: Full Video Production — The Invisible Cost (69s Master Video)](#task-10-full-video-production--the-invisible-cost-69s-master-video)
 
 ---
 
@@ -356,4 +358,106 @@ Execute an exhaustive typography and motion-editing overhaul across the 14.0-sec
 ### 5. Current Progress & Next Steps
 - Typography & Editing Overhaul V4 is 100% complete, verified, and broadcast ready.
 - Ready for final review.
+
+---
+
+## [Task #10] Full Video Production — The Invisible Cost (69s Master Video)
+**Date/Timestamp:** 2026-11-07 11:45:00 IST  
+**Status:** Completed  
+
+### 1. Objective & Scope
+Execute full end-to-end autonomous video production of **"The Invisible Cost — How Inflation Steals Purchasing Power"** (69.0 seconds / 2,070 frames @ 30 FPS, 1080×1920 vertical) as a finished, broadcast-quality financial explainer documentary for ANYMYN. Strictly implement the upgraded V4 typography and motion-editing standards (eliminating all presentation headers, "VOL 01" tags, card containers, and micro-labels). Deliver six completely distinct cinematic visual worlds, independent Python decimal calculations, paced neural narration (`en-US-ChristopherNeural`), multi-track procedural scoring in C Minor/G Minor with synchronized tactile sound effects, and multimodal contact sheet inspection.
+
+### 2. Changes Implemented
+- `videos/the-invisible-cost/`: Created complete, self-contained, reproducible project folder:
+  - `research/verify_calculations.py` & `research/claim_ledger.json` & `research/verified_calculations.json`: Mathematical verification using standard library `Decimal` verifying 20-year compound inflation ($100 @ 3% annual inflation): Year 0 ($100.00), Year 5 ($86.26), Year 10 ($74.41), Year 15 ($64.19), Year 20 ($55.37 vs $180.61 future basket cost), price level factor \(1.8061\), and purchasing power loss of \(-44.63\%\).
+  - `script/script.md`: Master narration script with calibrated scene timecodes, phonetics, and pacing cues.
+  - `storyboard/storyboard.md`: Comprehensive 6-scene shot plan detailing lighting, visual metaphors, camera choreography, and sound design.
+  - `audio/generate_audio.py`: Neural voiceover synthesis pipeline (`edge-tts` with `en-US-ChristopherNeural`), procedural 69s multi-track score with synchronized SFX hits (2.0s crystal chime, 14.5s vitrine chime, 29.0s fulcrum thud, 44.0s numeric impact, 52.5s erosion sub-bass), and EBU R128 loudness normalization.
+  - `audio/scene_timing.json` & `audio/master_audio.mp3`: Master broadcast audio track normalized to -17.3 LUFS (2.9 LU dynamic range, zero clipping).
+  - `studio/animation-engine/public/audio/the-invisible-cost/master_audio.mp3`: Synced static asset for Remotion playback.
+- `studio/animation-engine/src/compositions/the-invisible-cost/`: Built 6 modular scene components and master orchestrator:
+  - `Scene1TheIllusion.tsx` (Frames 0–315 / 0.0s–10.5s): Warm ivory gallery (`#FAF8F2`), macro camera push across 760px sculpted $100 banknote with guilloché security engraving, rolling golden sheen, caustic rim starburst glint at t = 2.0s, and 88px masked headline: *"IS YOUR MONEY LOSING ITS POWER?"*. Zero presentation headers or corner labels.
+  - `Scene2DifferentWorld.tsx` (Frames 315–720 / 10.5s–24.0s): Environmental morph from daylight vitrine (`#EFEAE1`) to cool obsidian studio (`#0F131A`). Curated everyday essentials (Food, Energy, Mobility). Demonstrates that while the $100 bill remains unchanged, the price boundary of the basket expands to $180.60, contracting purchasable coverage to 55.4%.
+  - `Scene3UnderstandingInflation.tsx` (Frames 720–1035 / 24.0s–34.5s): Kinetic bronze workshop (`#110E0C`). Precision mechanical fulcrum balance scale physically tilting under an expanding price mass (+80.6%), visually separating nominal dollar numbers from purchasing power.
+  - `Scene4NumericalReveal.tsx` (Frames 1035–1440 / 34.5s–48.0s): Midnight slate coordinate observatory (`#090C12`). Dynamic year-by-year calculation ticker ($100 → $55.37), `(1.03)²⁰ ≈ 1.806` formula lockup, and `−44.6% PURCHASING POWER DISSOLVED` pill.
+  - `Scene5VisualPayoff.tsx` (Frames 1440–1800 / 48.0s–60.0s): Deep ink black canvas (`#060608`). The "Invisible Dissolve": Luminous laser slices through the $100 bill at 55.37%, with the missing 44.6% evaporating into floating golden vapor particles. At t=56s, two monolith columns rise side-by-side: Nominal Balance ($100.00, 100% height) vs Real Purchasing Power ($55.37, 55.4% height) with zero overflow or clipping.
+  - `Scene6Conclusion.tsx` (Frames 1800–2070 / 60.0s–69.0s): Museum ivory resolution (`#FAF8F2`). Sculptural monetary seal, monumental 104px conclusion (*"Money is not just about how much you have. It is about what it can buy."*), and compliant mobile-safe educational disclosure footnote.
+  - `TheInvisibleCostMaster.tsx`: Master composition orchestrating sequence cuts, cross-dissolves, and dual-layer audio mixing.
+- `videos/the-invisible-cost/src/`: Mirrored editable source components inside project directory.
+- `studio/animation-engine/src/Root.tsx`: Registered `TheInvisibleCostMaster` composition (2,070 frames, 30 fps, 1080×1920).
+- `videos/the-invisible-cost/renders/the_invisible_cost_master.mp4`: Rendered final master video (1080×1920, 30 fps, H.264/AAC, 69.000s, 10.2 MB).
+- `studio/renders/the_invisible_cost_master.mp4`: Mirrored copy for workspace accessibility.
+- `videos/the-invisible-cost/qc/`: Extracted 12 milestone frames, generated tiled contact sheet (`contact_sheet.png`), and authored comprehensive inspection report (`qc_report.md`).
+- `videos/the-invisible-cost/README.md`: Complete production runbook and reproduction guide.
+
+### 3. Architectural Decisions & Invariants Preserved
+- **Complete Elimination of Presentation / Magazine Slide Aesthetic:** Fully adhered to the latest V4 typography guidelines. Zero chapter tags, zero volume numbers ("VOL 01"), zero decorative corner metadata, zero microtext fillers. Headlines scaled to 84–104px, primary numbers to 78–112px, footnotes to a clean 26px.
+- **Six Completely Distinct Visual Worlds:** Ivory Gallery (Scene 1) → Sand to Obsidian Vitrine (Scene 2) → Bronze Workshop (Scene 3) → Midnight Coordinate Observatory (Scene 4) → Ink Black Thermal Void (Scene 5) → Museum Ivory Finale (Scene 6).
+- **Independent Mathematical Verification:** Calculated and checked with Python standard library `Decimal` arbitrary precision ($100 @ 3% annual compound inflation over 20 years: $55.37 purchasing power, $180.61 future basket cost, -44.63% loss).
+- **Mobile-First Safe Area Geometry:** All key typography, numbers, and disclosures maintain at least 200px top and 220px bottom margins, immune to platform UI overlays.
+- **Acoustic Mastering:** Master audio normalized to -17.3 LUFS with 2.9 LU dynamic range, zero digital clipping, and synchronized visual sound effects.
+
+### 4. Verification & Evidence
+- **Python Calculations:** `verify_calculations.py` ran with exit code 0, confirming exact figures across all 20 years.
+- **TypeScript:** `npx tsc --noEmit` exited with code 0 (zero errors).
+- **Remotion Render Output:** Rendered all 2,070 frames in 96.6 seconds with exit code 0.
+- **FFprobe Verification:** `1080x1920`, `30.0 fps`, `duration: 69.000s`, `h264`, `aac (48kHz stereo)`, `bitrate: 1,179 kb/s`, `file size: 10.2 MB`.
+- **EBU R128 Loudness Audit:** Integrated loudness: `-17.3 LUFS`, LRA: `2.9 LU`, True peak: `-1.5 dBFS`.
+- **Full Video Decode Integrity:** `ffmpeg -i ... -f null -` decoded all 2,070 frames cleanly with exit code 0.
+- **Multimodal Visual Inspection:** Examined `videos/the-invisible-cost/qc/contact_sheet.png` across all 12 milestone frames via multimodal `view_file`. Diagnosed initial column overflow in Scene 5, corrected layout with `overflow: 'hidden'`, re-rendered, and confirmed flawless visual presentation.
+
+### 5. Current Progress & Next Steps
+- Production of "The Invisible Cost" master video is 100% complete, verified, and broadcast ready.
+- All 7 required deliverables are organized and preserved in the workspace.
+
+---
+
+## [Task #11] Inflation Video V2 — Storytelling Simplification & Visual Clarity Upgrade
+**Date/Timestamp:** 2026-11-07 12:35:00 IST  
+**Status:** Completed  
+
+### 1. Objective & Scope
+Rebuild and upgrade the inflation video ("The Invisible Cost" → V2) strictly enforcing the core creative mandate: **ONE SHOT. ONE IDEA. ONE CLEAR VISUAL FOCUS.** Radically eliminate visual clutter (competing subtitles, category cards, multi-line footer paragraphs, micro percentage tags, and academic economics jargon). Retain and elevate high-value assets (the 3D banknote, the physical grocery basket, the balance scale, warm ivory lighting, and the preserved procedural soundtrack). Fully isolate V2 in `videos/the-invisible-cost-v2/` while leaving V1 untouched as an immutable backup.
+
+### 2. Changes Implemented
+- `videos/the-invisible-cost-v2/`: Complete isolated, reproducible project folder:
+  - `research/verify_calculations.py` & `research/verified_calculations.json` & `research/claim_ledger.json`: Python Decimal verification confirming 20-year compound inflation ($100 @ 3%): Year 0 ($100.00 / $100.00), Year 6 ($119.41 / $83.75), Year 10 ($134.39 / $74.41), Year 20 ($180.61 / $55.37; -44.6% loss, 55.4% retained; avoiding inaccurate "cuts value in half" claims).
+  - `script/script.md`: Simplified conversational script tailored for a curious 10-year-old.
+  - `storyboard/storyboard.md`: 6-shot visual direction documenting clutter elimination for every shot.
+  - `audio/generate_audio.py` & `audio/master_audio.mp3`: Synthesized 6 paced voiceover stems (`en-US-ChristopherNeural`), mixed with preserved procedural soundtrack (`soundtrack_master.mp3`), mastered to -16.5 LUFS.
+- `studio/animation-engine/src/compositions/the-invisible-cost-v2/`:
+  - `Shot1TheMoneyV2.tsx` (Frames 0–240 / 0.0s–8.0s): Banknote hero shot, warm ivory, "THIS IS $100." Zero subtitles, zero corner badges.
+  - `Shot2WhatItBuysV2.tsx` (Frames 240–540 / 8.0s–18.0s): Physical grocery basket (baguette, milk, oats, apples, eggs) on plinth, "$100 ➔ 100% OF THIS BASKET", "TODAY, IT BUYS THIS."
+  - `Shot3TimePassesV2.tsx` (Frames 540–1050 / 18.0s–35.0s): Banknote stays unchanged, year counter rolls 0 → 20, balance scale tilts 12°, "PRICES RISE. THE BILL DOES NOT."
+  - `Shot4TheSameBasketV2.tsx` (Frames 1050–1410 / 35.0s–47.0s): Same physical basket returns in deep indigo observatory with monumental price tag: "$180.61", "THE SAME BASKET NOW COSTS MORE."
+  - `Shot5TheRealizationV2.tsx` (Frames 1410–1770 / 47.0s–59.0s): Unchanged $100 note next to basket coverage bar: "55.4% COVERAGE" ($55.37 value), "YOUR $100 NOW BUYS ABOUT 55%."
+  - `Shot6TheConclusionV2.tsx` (Frames 1770–2070 / 59.0s–69.0s): Progressive disclosure: Phase 1: "THE NUMBER STAYED THE SAME." ➔ Phase 2: "WHAT IT CAN BUY CHANGED.", 26px mobile-safe disclaimer.
+  - `TheInvisibleCostV2Master.tsx`: Remotion sequence orchestrator.
+- `videos/the-invisible-cost-v2/src/`: Mirrored source components inside project directory.
+- `studio/animation-engine/src/Root.tsx`: Registered `TheInvisibleCostV2Master` (2,070 frames, 30 fps, 1080×1920).
+- `videos/the-invisible-cost-v2/renders/the_invisible_cost_v2_master.mp4` & `studio/renders/the_invisible_cost_v2_master.mp4`: Rendered master MP4 (1080×1920, 30 fps, H.264/AAC, 69.000s, 10.66 MB).
+- `videos/the-invisible-cost-v2/qc/`: Extracted 12 milestone frames, generated tiled contact sheet (`contact_sheet.png`), and authored comprehensive inspection report (`qc_report.md`).
+- `videos/the-invisible-cost-v2/README.md`: Complete reproduction runbook.
+
+### 3. Architectural Decisions & Invariants Preserved
+- **One Shot, One Idea, One Clear Visual Focus:** Maximum 1 dominant visual, 1 short supporting phrase, and at most 1 important numerical value per shot. Progressive disclosure rather than simultaneous clutter.
+- **Conversational Tone:** Eradicated academic jargon (*"nominal value"*, *"purchasing power erosion"*, *"nominal stability"*).
+- **Preserved Audio Identity:** Background soundtrack preserved without alteration; voiceovers dynamically ducked with sidechain compression.
+- **Mathematical Rigor:** 55.4% purchasing power retained; 44.6% lost; no "cuts in half" claims.
+- **Broadcast Standards:** Normalized to -16.5 LUFS with 4.8 LU dynamic range.
+
+### 4. Verification & Evidence
+- **Python Decimal Verification:** `verify_calculations.py` ran with exit code 0, confirming exact figures across all 20 years.
+- **TypeScript:** `npx tsc --noEmit` exited with code 0 (zero errors).
+- **Remotion Render Output:** Rendered all 2,070 frames in 66.2 seconds with exit code 0.
+- **FFprobe Verification:** `1080x1920`, `30.0 fps`, `duration: 69.000s`, `h264`, `aac (48kHz stereo)`, `file size: 10.66 MB`.
+- **EBU R128 Loudness Audit:** Integrated loudness: `-16.5 LUFS`, LRA: `4.8 LU`, True peak: `-1.5 dBFS`.
+- **Multimodal Visual Inspection:** Examined `videos/the-invisible-cost-v2/qc/contact_sheet.png` across all 12 milestone checkpoints via multimodal `view_file`. Confirmed clutter elimination and clear visual hierarchy.
+
+### 5. Current Progress & Next Steps
+- Production of "The Invisible Cost V2" master video is 100% complete, verified, and broadcast ready.
+- All 7 required deliverables are organized and preserved in `videos/the-invisible-cost-v2/`.
+
+
 
