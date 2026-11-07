@@ -1,0 +1,170 @@
+[
+  {
+    "year": 0,
+    "basket_cost": 100.0,
+    "purchasing_power": 100.0,
+    "pct_loss": 0.0,
+    "pct_retained": 100.0,
+    "growth_factor": 1.0
+  },
+  {
+    "year": 1,
+    "basket_cost": 103.0,
+    "purchasing_power": 97.09,
+    "pct_loss": 2.9,
+    "pct_retained": 97.1,
+    "growth_factor": 1.03
+  },
+  {
+    "year": 2,
+    "basket_cost": 106.09,
+    "purchasing_power": 94.26,
+    "pct_loss": 5.7,
+    "pct_retained": 94.3,
+    "growth_factor": 1.0609
+  },
+  {
+    "year": 3,
+    "basket_cost": 109.27,
+    "purchasing_power": 91.51,
+    "pct_loss": 8.5,
+    "pct_retained": 91.5,
+    "growth_factor": 1.0927
+  },
+  {
+    "year": 4,
+    "basket_cost": 112.55,
+    "purchasing_power": 88.85,
+    "pct_loss": 11.2,
+    "pct_retained": 88.9,
+    "growth_factor": 1.1255
+  },
+  {
+    "year": 5,
+    "basket_cost": 115.93,
+    "purchasing_power": 86.26,
+    "pct_loss": 13.7,
+    "pct_retained": 86.3,
+    "growth_factor": 1.1593
+  },
+  {
+    "year": 6,
+    "basket_cost": 119.41,
+    "purchasing_power": 83.75,
+    "pct_loss": 16.3,
+    "pct_retained": 83.8,
+    "growth_factor": 1.1941
+  },
+  {
+    "year": 7,
+    "basket_cost": 122.99,
+    "purchasing_power": 81.31,
+    "pct_loss": 18.7,
+    "pct_retained": 81.3,
+    "growth_factor": 1.2299
+  },
+  {
+    "year": 8,
+    "basket_cost": 126.68,
+    "purchasing_power": 78.94,
+    "pct_loss": 21.1,
+    "pct_retained": 78.9,
+    "growth_factor": 1.2668
+  },
+  {
+    "year": 9,
+    "basket_cost": 130.48,
+    "purchasing_power": 76.64,
+    "pct_loss": 23.4,
+    "pct_retained": 76.6,
+    "growth_factor": 1.3048
+  },
+  {
+    "year": 10,
+    "basket_cost": 134.39,
+    "purchasing_power": 74.41,
+    "pct_loss": 25.6,
+    "pct_retained": 74.4,
+    "growth_factor": 1.3439
+  },
+  {
+    "year": 11,
+    "basket_cost": 138.42,
+    "purchasing_power": 72.24,
+    "pct_loss": 27.8,
+    "pct_retained": 72.2,
+    "growth_factor": 1.3842
+  },
+  {
+    "year": 12,
+    "basket_cost": 142.58,
+    "purchasing_power": 70.14,
+    "pct_loss": 29.9,
+    "pct_retained": 70.1,
+    "growth_factor": 1.4258
+  },
+  {
+    "year": 13,
+    "basket_cost": 146.85,
+    "purchasing_power": 68.1,
+    "pct_loss": 31.9,
+    "pct_retained": 68.1,
+    "growth_factor": 1.4685
+  },
+  {
+    "year": 14,
+    "basket_cost": 151.26,
+    "purchasing_power": 66.11,
+    "pct_loss": 33.9,
+    "pct_retained": 66.1,
+    "growth_factor": 1.5126
+  },
+  {
+    "year": 15,
+    "basket_cost": 155.8,
+    "purchasing_power": 64.19,
+    "pct_loss": 35.8,
+    "pct_retained": 64.2,
+    "growth_factor": 1.558
+  },
+  {
+    "year": 16,
+    "basket_cost": 160.47,
+    "purchasing_power": 62.32,
+    "pct_loss": 37.7,
+    "pct_retained": 62.3,
+    "growth_factor": 1.6047
+  },
+  {
+    "year": 17,
+    "basket_cost": 165.28,
+    "purchasing_power": 60.5,
+    "pct_loss": 39.5,
+    "pct_retained": 60.5,
+    "growth_factor": 1.6528
+  },
+  {
+    "year": 18,
+    "basket_cost": 170.24,
+    "purchasing_power": 58.74,
+    "pct_loss": 41.3,
+    "pct_retained": 58.7,
+    "growth_factor": 1.7024
+  },
+  {
+    "year": 19,
+    "basket_cost": 175.35,
+    "purchasing_power": 57.03,
+    "pct_loss": 43.0,
+    "pct_retained": 57.0,
+    "growth_factor": 1.7535
+  },
+  {
+    "year": 20,
+    "basket_cost": 180.61,
+    "purchasing_power": 55.37,
+    "pct_loss": 44.6,
+    "pct_retained": 55.4,
+    "growth_factor": 1.8061
+  }
+]

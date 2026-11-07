@@ -459,5 +459,64 @@ Rebuild and upgrade the inflation video ("The Invisible Cost" → V2) strictly e
 - Production of "The Invisible Cost V2" master video is 100% complete, verified, and broadcast ready.
 - All 7 required deliverables are organized and preserved in `videos/the-invisible-cost-v2/`.
 
+---
+
+## [Task #12] ANYMYN V5.1 — Unified Ivory Grid Studio / Reliable Production Architecture
+**Date/Timestamp:** 2026-11-07 13:35:00 IST  
+**Status:** Completed  
+
+### 1. Objective & Scope
+Refine engineering architecture and implement **Visual Identity V5.1** for the 69.0s inflation explainer video ("The Invisible Cost: Inflation Simplified"). Establish an unbroken, permanent light theme (`#F3EFE5` base wall, `#FAF7F0` illuminated core, `#E9DFC9` warm cream floor) with a master-level signature perspective grid-gradient background (`StudioGridBackground.tsx`) and cardless physical object analogies. Completely eliminate background flickers and scene jump cuts by mounting the background once at the master orchestrator (`TheInvisibleCostV5Master.tsx`). Maintain strict immutable backups of V1 and V2, organizing all V5 deliverables inside `videos/the-invisible-cost-v5/` and `studio/animation-engine/src/compositions/the-invisible-cost-v5/`.
+
+### 2. Changes Implemented
+- `videos/the-invisible-cost-v5/`: Established isolated deliverables package:
+  - `research/verify_calculations.py` & `research/verified_calculations.json`: High-precision Python Decimal calculations verifying 20-year compound inflation ($100 @ 3%): Year 0 ($100.00 / $100.00), Year 6 ($119.41 / $83.75), Year 10 ($134.39 / $74.41), Year 18 ($170.24 / $58.74), Year 20 ($180.61 / $55.37; exactly 44.6% purchasing power loss, 55.4% retained).
+  - `script/script.md`: Shot-by-shot narration and timing ledger matching approved audio stems.
+  - `storyboard/storyboard.md`: 6-shot visual direction grid and prop interaction dynamics.
+  - `audio/`: Preserved approved soundtrack (`soundtrack_master.mp3`) and discrete conversational narration stems (`scene1_vo.mp3` through `scene6_vo.mp3`), providing master audio track (`master_audio.mp3`) normalized to -16.5 LUFS.
+  - `src/`: Mirrored standalone V5.1 TypeScript/React source code.
+  - `renders/the_invisible_cost_v5_master.mp4`: Final broadcast-ready master video (1080×1920, 30fps, H.264/AAC, 69.000s, 11.34 MB).
+  - `qc/contact_sheet.png`: 4×3 tiled visual QC contact sheet across 12 milestone frames with timecodes and captions.
+  - `qc/qc_report.md`: Technical and acoustic audit report documenting 100% compliance.
+  - `production_manifest.json`: Machine-readable production metadata and financial invariants.
+  - `README.md`: Reproduction instructions and playback verification commands.
+- `studio/animation-engine/src/compositions/the-invisible-cost-v5/`:
+  - `theme.ts`: Single authoritative design token module (ivory palettes, typographic hierarchy, safe areas, contact shadow tokens).
+  - `StudioGridBackground.tsx`: Master-level perspective grid engine featuring horizon line ($Y = 860\text{px}$), exponential transversal floor compression, longitudinal perspective rays, radial vignette edge dissolve, and camera parallax interpolation.
+  - `components/GroceryBasketProp.tsx`: Reusable artisanal wicker basket with items (baguette, milk, oats, apples, eggs) supporting `fillPercent` (100% in Shots 2/4, 55.4% in Shot 5) and light parchment swinging price tag.
+  - `components/BanknoteProp.tsx`: 3D $100 Federal Reserve Note with guilloché engravings, security ribbon, specular highlight sweep, and caustic starburst glint.
+  - `components/BalanceScaleProp.tsx`: Polished brass balance scale with tilting beam (0° to 12°) and expanding terracotta price mass (+80.6%).
+  - `components/MonetaryMedallionProp.tsx`: Sculptural monetary seal medallion with concentric guilloché rings and embossed balance emblem.
+  - `data/inflationData.ts`: Typed data module consumed by all scenes from verified JSON.
+  - `Shot1TheMoneyV5.tsx` (Frames 0–240 / 0.0s–8.0s): Hero 3D banknote on illuminated ivory floor, "THIS IS $100."
+  - `Shot2WhatItBuysV5.tsx` (Frames 240–540 / 8.0s–18.0s): Full grocery basket (100% fill), "TODAY, IT BUYS THIS.", "$100 ➔ 100% OF THIS BASKET".
+  - `Shot3TimePassesV5.tsx` (Frames 540–1050 / 18.0s–35.0s): Brass balance scale tilting 12°, year ticker `YEAR 0 ➔ 20 OF 20`, "PRICES RISE. THE BILL DOESN'T."
+  - `Shot4TheSameBasketV5.tsx` (Frames 1050–1410 / 35.0s–47.0s): Exact same basket with swinging light parchment price tag compounding to `$180.61`, "THE SAME BASKET NOW COSTS MORE."
+  - `Shot5TheRealizationV5.tsx` (Frames 1410–1770 / 47.0s–59.0s): Exact same basket visibly ghosting 44.6% of contents (`fillPercent={55.4}`), single plinth readout, "YOUR $100 NOW BUYS ABOUT 55%."
+  - `Shot6TheConclusionV5.tsx` (Frames 1770–2070 / 59.0s–69.0s): Sculptural medallion, progressive disclosure: Phase 1: "THE NUMBER STAYED THE SAME." ➔ Phase 2: "WHAT IT CAN BUY CHANGED. NEVER MISTAKE THE NUMBER FOR THE PURCHASING POWER.", 24px mobile-safe disclaimer.
+  - `TheInvisibleCostV5Master.tsx`: Master composition orchestrator mounting `StudioGridBackground` once continuously, sequencing all 6 transparent scenes, and hosting master audio.
+- `studio/animation-engine/src/Root.tsx`: Registered `TheInvisibleCostV5Master` composition (2,070 frames, 30 fps, 1080×1920).
+
+### 3. Architectural Decisions & Invariants Preserved
+- **Unbroken Light Theme Continuity:** Strict adherence to permanent light environment (`#F3EFE5` / `#FAF7F0` / `#E9DFC9`). Zero dark navy, black, or full-screen charcoal scenes.
+- **Single Master Background Mount:** Eliminated scene-boundary environment jump cuts and flickering by rendering `StudioGridBackground` once at the master composition level while scenes render transparent foregrounds.
+- **Cardless Physical Metaphors & Asset Reuse:** Eliminated generic dashboard cards and vitrines. Reused the exact same `GroceryBasketProp` asset across Shots 2, 4, and 5; represented the 44.6% loss in purchasing power physically via empty space (`fillPercent={55.4}`) in Shot 5.
+- **Strict Visual Contrast Rules:** Refactored Shot 4 price tag from dark charcoal to warm ivory parchment with amber border and dark bronze typography, ensuring 100% light theme compliance.
+- **Authoritative Mathematical Source of Truth:** Python Decimal calculations verified 20-year compound inflation ($100 @ 3%): Year 20 basket cost $180.61; purchasing power $55.37 (44.6% loss, 55.4% retained; avoiding misleading "cuts in half" claims).
+
+### 4. Verification & Evidence
+- **Python Verification:** `verify_calculations.py` ran with exit code 0, confirming exact figures across all 20 years.
+- **TypeScript Typecheck:** `npx tsc --noEmit` exited with code 0 (zero errors).
+- **Remotion Master Render:** Rendered all 2,070 frames in 100.1 seconds with exit code 0 to `studio/renders/the_invisible_cost_v5_master.mp4`.
+- **FFprobe Container Verification:** `1080x1920`, `30.0 fps`, `duration: 69.000s`, `h264`, `aac (48kHz stereo)`, `bitrate: 1,315 kb/s`, `file size: 11.34 MB`.
+- **EBU R128 Loudness Audit:** Integrated loudness: `-16.5 LUFS` (exact match with target standard), LRA: `4.8 LU`.
+- **Multimodal Visual Inspection:** Extracted 12 milestone frames and generated 4×3 tiled contact sheet (`videos/the-invisible-cost-v5/qc/contact_sheet.png`). Verified 100% light theme compliance, smooth grid perspective, prop grounding, and clean progressive disclosure via multimodal `view_file`.
+
+### 5. Current Progress & Next Steps
+- Production of "The Invisible Cost V5.1" master video is 100% complete, verified, and broadcast ready.
+- All deliverables are organized and preserved in `videos/the-invisible-cost-v5/`.
+- Workspace is ready for user review and playback.
+
+
 
 

@@ -8,10 +8,20 @@ import { LookDevV4 } from './compositions/lookdev4/LookDevV4';
 import { TheCompoundEffectMaster } from './compositions/the-compound-effect/TheCompoundEffectMaster';
 import { TheInvisibleCostMaster } from './compositions/the-invisible-cost/TheInvisibleCostMaster';
 import { TheInvisibleCostV2Master } from './compositions/the-invisible-cost-v2/TheInvisibleCostV2Master';
+import { TheInvisibleCostV5Master } from './compositions/the-invisible-cost-v5/TheInvisibleCostV5Master';
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* 69.0-second Full Video Production: The Invisible Cost V5.1 (Unified Ivory Grid Studio) */}
+      <Composition
+        id="TheInvisibleCostV5Master"
+        component={TheInvisibleCostV5Master}
+        durationInFrames={2070}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       {/* 69.0-second Full Video Production: The Invisible Cost V2 (Simplified & Focused) */}
       <Composition
         id="TheInvisibleCostV2Master"
