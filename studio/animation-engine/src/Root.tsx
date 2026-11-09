@@ -9,10 +9,21 @@ import { TheCompoundEffectMaster } from './compositions/the-compound-effect/TheC
 import { TheInvisibleCostMaster } from './compositions/the-invisible-cost/TheInvisibleCostMaster';
 import { TheInvisibleCostV2Master } from './compositions/the-invisible-cost-v2/TheInvisibleCostV2Master';
 import { TheInvisibleCostV5Master } from './compositions/the-invisible-cost-v5/TheInvisibleCostV5Master';
+import { TheSalaryTrapMaster } from './compositions/the-salary-trap/TheSalaryTrapMaster';
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      {/* 52.0-second Full Video Production: The Salary Trap (Lifestyle Inflation) */}
+      <Composition
+        id="TheSalaryTrapMaster"
+        component={TheSalaryTrapMaster}
+        durationInFrames={1560}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
       {/* 69.0-second Full Video Production: The Invisible Cost V5.1 (Unified Ivory Grid Studio) */}
       <Composition
         id="TheInvisibleCostV5Master"
@@ -22,6 +33,7 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+
       {/* 69.0-second Full Video Production: The Invisible Cost V2 (Simplified & Focused) */}
       <Composition
         id="TheInvisibleCostV2Master"

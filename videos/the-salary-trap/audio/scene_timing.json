@@ -1,0 +1,56 @@
+[
+  {
+    "id": "scene1",
+    "name": "The Paradox of the Two Plinths",
+    "start_sec": 0.0,
+    "end_sec": 5.5,
+    "start_frame": 0,
+    "duration_frames": 165,
+    "text": "A person earning forty thousand rupees a month can be just as broke as someone earning thirty thousand."
+  },
+  {
+    "id": "scene2",
+    "name": "The Baseline Blueprint",
+    "start_sec": 5.5,
+    "end_sec": 14.0,
+    "start_frame": 165,
+    "duration_frames": 255,
+    "text": "Say you earn thirty thousand rupees, spend twenty-seven thousand on living expenses, and save three thousand. You have a small safety cushion."
+  },
+  {
+    "id": "scene3",
+    "name": "The Raise Arrives",
+    "start_sec": 14.0,
+    "end_sec": 21.5,
+    "start_frame": 420,
+    "duration_frames": 225,
+    "text": "Then, you get a raise. Your salary jumps to forty thousand rupees. You expect your savings to instantly shoot up."
+  },
+  {
+    "id": "scene4",
+    "name": "The Creep: Three Silent Upgrades",
+    "start_sec": 21.5,
+    "end_sec": 34.0,
+    "start_frame": 645,
+    "duration_frames": 375,
+    "text": "Instead, lifestyle creep quietly takes over. A slightly nicer apartment costs four thousand more. Ordering food more often takes three thousand. A new phone adds another three thousand."
+  },
+  {
+    "id": "scene5",
+    "name": "The Climax: The Unchanged Vault",
+    "start_sec": 34.0,
+    "end_sec": 42.0,
+    "start_frame": 1020,
+    "duration_frames": 240,
+    "text": "At the end of the month, your total spending is thirty-seven thousand rupees. And your savings? Still exactly three thousand."
+  },
+  {
+    "id": "scene6",
+    "name": "The Verdict & The 50/50 Rule",
+    "start_sec": 42.0,
+    "end_sec": 52.0,
+    "start_frame": 1260,
+    "duration_frames": 300,
+    "text": "You didn\u2019t get richer. Your life just got more expensive. Whenever your income grows, save half the raise first. Upgrade your life with the rest."
+  }
+]

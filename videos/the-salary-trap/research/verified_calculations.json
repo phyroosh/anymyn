@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "topic": "Why a Higher Salary Doesn't Always Make You Richer",
+    "concept": "Lifestyle Inflation / Lifestyle Creep",
+    "currency": "INR (\u20b9)",
+    "verification_engine": "Python 3 standard library Decimal (exact high-precision arithmetic)",
+    "status": "VERIFIED_ACCURATE"
+  },
+  "baseline_scenario": {
+    "monthly_income": 30000.0,
+    "monthly_spending": 27000.0,
+    "monthly_savings": 3000.0,
+    "savings_rate_percent": 10.0,
+    "annual_income": 360000.0,
+    "annual_spending": 324000.0,
+    "annual_savings": 36000.0
+  },
+  "lifestyle_inflation_scenario": {
+    "monthly_raise": 10000.0,
+    "raise_percentage": 33.3,
+    "new_monthly_income": 40000.0,
+    "spending_breakdown": {
+      "rent_upgrade": 4000.0,
+      "food_and_dining_out": 3000.0,
+      "phone_and_gadgets_emi": 3000.0,
+      "total_spending_creep": 10000.0
+    },
+    "new_monthly_spending": 37000.0,
+    "new_monthly_savings": 3000.0,
+    "savings_rate_percent": 7.5,
+    "annual_income": 480000.0,
+    "annual_spending": 444000.0,
+    "annual_savings": 36000.0,
+    "deltas": {
+      "monthly_income_delta": 10000.0,
+      "monthly_spending_delta": 10000.0,
+      "monthly_savings_delta": 0.0,
+      "annual_extra_earned": 120000.0,
+      "annual_extra_spent": 120000.0,
+      "annual_extra_saved": 0.0,
+      "savings_rate_delta_percentage_points": -2.5
+    }
+  },
+  "conscious_allocation_solution": {
+    "strategy": "Save Half of Every Raise (50/50 Rule)",
+    "monthly_savings_addition": 5000.0,
+    "monthly_spending_addition": 5000.0,
+    "new_monthly_spending": 32000.0,
+    "new_monthly_savings": 8000.0,
+    "new_savings_rate_percent": 20.0,
+    "annual_savings": 96000.0,
+    "annual_extra_saved_vs_baseline": 60000.0,
+    "percentage_increase_in_savings": 166.7
+  },
+  "spoken_script_numbers": {
+    "baseline_income": "thirty thousand rupees",
+    "baseline_spending": "twenty-seven thousand rupees",
+    "baseline_savings": "three thousand rupees",
+    "raise_amount": "ten thousand rupees",
+    "new_income": "forty thousand rupees",
+    "new_spending": "thirty-seven thousand rupees",
+    "new_savings": "three thousand rupees",
+    "extra_saved_under_creep": "zero rupees",
+    "extra_saved_under_conscious_plan": "five thousand extra rupees every month"
+  }
+}

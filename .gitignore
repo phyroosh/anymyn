@@ -4,11 +4,32 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .remotion/
+dist/
+build/
 
 # Python
 .venv/
 __pycache__/
 *.pyc
+
+# ANYMYN Studio Local State & Credentials
+studio/control-center/data/
+*.db
+client_secret*.json
+
+# Video & Audio media files (never commit media binaries to repository)
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+*.m4v
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.m4a
 
 # OS
 .DS_Store

@@ -189,23 +189,29 @@ Create in `videos/<video-slug>/voiceover/`:
 - Subtle organic sound effects; true-peak control ($\le -1.5\text{ dBFS}$).
 - Target Integrated Loudness: **`-16.5 LUFS`** ($\pm 0.5$ LUFS), LRA $< 7.0$ LU.
 
-### PHASE 14 — Final Quality Control & Technical Audit
+### PHASE 14 — Final Quality Control, Technical Audit & Stage B Metadata
 - Compilation audit (`npx tsc --noEmit` exit code 0).
 - Master render to `videos/<video-slug>/renders/<video-slug>_master.mp4`.
 - Technical stream check (`ffprobe`) and loudness check (`ebur128`).
 - Extract 12 milestone frames and generate 4×3 contact sheet (`videos/<video-slug>/qc/contact_sheet.png`).
 - Honest multimodal visual inspection for text contrast, light-theme consistency, safe areas, and prop grounding.
 - Document audit in `videos/<video-slug>/qc/qc_report.md`.
+- **Automatic Stage B YouTube Publishing Package (`youtube_metadata.json`):**
+  - Synthesize 1 recommended title + 2 alternative suggestions.
+  - Derive exact chapter timestamps directly from the real video timeline (`audio/scene_timing.json`).
+  - Generate a clean, human-first YouTube description (hook, learning takeaways, accurate timestamps, sources, financial disclaimer, and hashtags) with zero internal notes or phonetic guides.
+  - Set category (`27`), language (`en`), tags, and synthetic content disclosure (`true`).
+  - Write persistent deliverable `videos/<video-slug>/youtube_metadata.json` and sync with ANYMYN Studio SQLite database.
 
 ### PHASE 15 — Post-Publication Learning & Controlled Experimentation
-- Once published, log analytics using `analytics/retention_review_template.md`.
+- Once published or scheduled, track status and analytics via ANYMYN Studio and `analytics/retention_review_template.md`.
 - Track platform metrics (YouTube Shorts stayed-to-watch & engaged views post Aug 24 2026; Instagram Reels sends per reach; TikTok completion).
 - Analyze retention curves for early drop-offs, mid dips, plateaus, and rewatch spikes.
 - **Single-Variable Experimentation:** Test only one major variable at a time (e.g. hook archetype, script length) across consecutive productions.
 
 ---
 
-## Final Production Deliverables (The 11-Item Package)
+## Final Production Deliverables (The 12-Item Package)
 
 Every completed ANYMYN production package in `videos/<video-slug>/` must contain:
 
@@ -220,6 +226,7 @@ Every completed ANYMYN production package in `videos/<video-slug>/` must contain
 9. **Editable Source Code:** `src/` (complete Remotion / React / SVG source tree).
 10. **Research & Calculations Record:** `research/verified_calculations.json` & claim ledger.
 11. **QC Report & Contact Sheet:** `qc/qc_report.md` & `qc/contact_sheet.png`.
+12. **Complete YouTube Publishing Package:** `youtube_metadata.json` (title, alternative titles, clean description with timeline-derived chapters, tags, category, language, sources, and educational disclaimer).
 
 Additionally, append the completed milestone entry chronologically to `workdone.md` at the project root.
 

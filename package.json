@@ -1,0 +1,10 @@
+{
+  "name": "anymyn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ANYMYN — High-Retention Financial Explainer Production Suite",
+  "scripts": {
+    "studio": "node studio/control-center/server.js",
+    "studio:build": "cd studio/control-center && npm run build"
+  }
+}

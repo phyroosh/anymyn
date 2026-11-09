@@ -1,0 +1,76 @@
+{
+  "slug": "the-salary-trap",
+  "version": "1.0",
+  "stage": "STAGE_B_FINAL",
+  "status": "approved",
+  "isApproved": true,
+  "isEditedByHuman": false,
+  "generatedAt": "2026-11-08T23:17:28.174Z",
+  "updatedAt": "2026-11-08T23:37:08.502Z",
+  "title": "Why a Higher Salary Doesn't Always Make You Richer",
+  "recommendedTitle": "Why a Higher Salary Doesn't Always Make You Richer",
+  "alternativeTitles": [
+    "The Salary Trap: Why Earning More Doesn't Fix Your Savings",
+    "Why a ₹10,000 Raise Leaves Most People with ₹0 Extra"
+  ],
+  "description": "Most people assume that earning more money automatically solves their financial stress. But for millions of earners, a significant salary bump results in exactly zero extra savings at the end of the year.\n\nIn this breakdown, we examine lifestyle inflation—the psychological mechanism that quietly converts income raises into higher fixed living expenses—and how the 50/50 rule protects your financial future.\n\nTIMESTAMPS:\n00:00 The Paradox of the Two Plinths\n00:05 The Baseline Blueprint\n00:14 The Raise Arrives\n00:21 The Creep: Three Silent Upgrades\n00:34 The Climax: The Unchanged Vault\n00:42 The Verdict & The 50/50 Rule\n\nRESEARCH & DATA SOURCES:\n• Reserve Bank of India (RBI) Household Financial Savings Survey\n• Kahneman & Deaton: High income improves evaluation of life but not emotional well-being (PNAS)\n• Standard Economic Models of Income Elasticity and Habit Formation\n\nDISCLAIMER:\nThis video is produced for educational and informational purposes only. It does not constitute individual financial, investment, or tax advice. Always consult a certified financial planner or registered financial advisor before making major financial decisions.\n\n#PersonalFinance #MoneyTips #FinancialLiteracy #ANYMYN",
+  "chapters": [
+    {
+      "time": "00:00",
+      "title": "The Paradox of the Two Plinths",
+      "sec": 0
+    },
+    {
+      "time": "00:05",
+      "title": "The Baseline Blueprint",
+      "sec": 5.5
+    },
+    {
+      "time": "00:14",
+      "title": "The Raise Arrives",
+      "sec": 14
+    },
+    {
+      "time": "00:21",
+      "title": "The Creep: Three Silent Upgrades",
+      "sec": 21.5
+    },
+    {
+      "time": "00:34",
+      "title": "The Climax: The Unchanged Vault",
+      "sec": 34
+    },
+    {
+      "time": "00:42",
+      "title": "The Verdict & The 50/50 Rule",
+      "sec": 42
+    }
+  ],
+  "tags": [
+    "salary trap",
+    "lifestyle creep",
+    "personal finance",
+    "how to save money",
+    "money habits",
+    "budgeting tips",
+    "financial literacy",
+    "income and savings",
+    "saving money",
+    "wealth building"
+  ],
+  "category": "27",
+  "language": "en",
+  "hashtags": [
+    "#PersonalFinance",
+    "#MoneyTips",
+    "#FinancialLiteracy",
+    "#ANYMYN"
+  ],
+  "sources": [
+    "Reserve Bank of India (RBI) Household Financial Savings Survey",
+    "Kahneman & Deaton: High income improves evaluation of life but not emotional well-being (PNAS)",
+    "Standard Economic Models of Income Elasticity and Habit Formation"
+  ],
+  "disclaimer": "This video is produced for educational and informational purposes only. It does not constitute individual financial, investment, or tax advice. Always consult a certified financial planner or registered financial advisor before making major financial decisions.",
+  "isSynthetic": true
+}

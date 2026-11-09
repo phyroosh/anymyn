@@ -1,0 +1,73 @@
+{
+  "slug": "the-compound-effect",
+  "version": "1.0",
+  "stage": "STAGE_B_FINAL",
+  "status": "ai_generated",
+  "isApproved": false,
+  "isEditedByHuman": false,
+  "generatedAt": "2026-11-08T23:17:28.157Z",
+  "updatedAt": "2026-11-08T23:17:28.157Z",
+  "title": "The Compound Effect: How Patient Money Multiplies",
+  "recommendedTitle": "The Compound Effect: How Patient Money Multiplies",
+  "alternativeTitles": [
+    "The Mathematics of Compounding: Why Time Beats Timing",
+    "Why Starting 5 Years Earlier Outperforms Investing Twice as Much"
+  ],
+  "description": "Compounding looks agonizingly slow at first, almost unnoticeable. Then, past a critical inflection point, growth becomes exponential.\n\nDiscover the mathematical principle behind compound interest, why the earliest years matter most, and how consistent reinvestment builds lasting financial security.\n\nTIMESTAMPS:\n00:00 Part 1\n00:08 Part 2\n00:19 Part 3\n00:33 Part 4\n00:47 Part 5\n01:02 Part 6\n\nRESEARCH & DATA SOURCES:\n• Standard Exponential Growth Formula: A = P(1 + r/n)^(nt)\n• Historical S&P 500 / Nifty 50 Total Return Indices (1980–2025)\n\nDISCLAIMER:\nEducational content only. Past performance does not guarantee future results. Not individual investment advice.\n\n#Compounding #Investing #PersonalFinance #ANYMYN",
+  "chapters": [
+    {
+      "time": "00:00",
+      "title": "Part 1",
+      "sec": 0
+    },
+    {
+      "time": "00:08",
+      "title": "Part 2",
+      "sec": 8.5
+    },
+    {
+      "time": "00:19",
+      "title": "Part 3",
+      "sec": 19.5
+    },
+    {
+      "time": "00:33",
+      "title": "Part 4",
+      "sec": 33.5
+    },
+    {
+      "time": "00:47",
+      "title": "Part 5",
+      "sec": 47.5
+    },
+    {
+      "time": "01:02",
+      "title": "Part 6",
+      "sec": 62.5
+    }
+  ],
+  "tags": [
+    "compound interest",
+    "compound effect",
+    "investing early",
+    "long term investing",
+    "financial freedom",
+    "wealth building",
+    "money growth",
+    "exponential growth"
+  ],
+  "category": "27",
+  "language": "en",
+  "hashtags": [
+    "#Compounding",
+    "#Investing",
+    "#PersonalFinance",
+    "#ANYMYN"
+  ],
+  "sources": [
+    "Standard Exponential Growth Formula: A = P(1 + r/n)^(nt)",
+    "Historical S&P 500 / Nifty 50 Total Return Indices (1980–2025)"
+  ],
+  "disclaimer": "Educational content only. Past performance does not guarantee future results. Not individual investment advice.",
+  "isSynthetic": true
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "the-invisible-cost-v2",
+  "version": "1.0",
+  "stage": "STAGE_B_FINAL",
+  "status": "ai_generated",
+  "isApproved": false,
+  "isEditedByHuman": false,
+  "generatedAt": "2026-11-08T23:17:28.167Z",
+  "updatedAt": "2026-11-08T23:17:28.167Z",
+  "title": "The Invisible Cost of Holding Cash",
+  "recommendedTitle": "The Invisible Cost of Holding Cash",
+  "alternativeTitles": [
+    "Why Safe Money Slowly Loses Value Over Time",
+    "How Inflation Quietly Erodes Your Purchasing Power"
+  ],
+  "description": "Keeping cash in a bank account feels safe because the nominal balance never changes. However, when prices double, your cash buys half as much as it did a decade ago.\n\nUnderstand how the real value of currency changes over time and how to preserve long-term purchasing power.\n\nTIMESTAMPS:\n00:00 Part 1\n00:08 Part 2\n00:18 Part 3\n00:35 Part 4\n00:47 Part 5\n00:59 Part 6\n\nRESEARCH & DATA SOURCES:\n• Consumer Price Index Historical Datasets\n• Principles of Macroeconomics\n\nDISCLAIMER:\nEducational content only. Not financial or investment advice.\n\n#Inflation #PersonalFinance #Money #ANYMYN",
+  "chapters": [
+    {
+      "time": "00:00",
+      "title": "Part 1",
+      "sec": 0
+    },
+    {
+      "time": "00:08",
+      "title": "Part 2",
+      "sec": 8
+    },
+    {
+      "time": "00:18",
+      "title": "Part 3",
+      "sec": 18
+    },
+    {
+      "time": "00:35",
+      "title": "Part 4",
+      "sec": 35
+    },
+    {
+      "time": "00:47",
+      "title": "Part 5",
+      "sec": 47
+    },
+    {
+      "time": "00:59",
+      "title": "Part 6",
+      "sec": 59
+    }
+  ],
+  "tags": [
+    "inflation",
+    "purchasing power",
+    "cost of living",
+    "personal finance",
+    "financial literacy",
+    "savings account truth",
+    "money education"
+  ],
+  "category": "27",
+  "language": "en",
+  "hashtags": [
+    "#Inflation",
+    "#PersonalFinance",
+    "#Money",
+    "#ANYMYN"
+  ],
+  "sources": [
+    "Consumer Price Index Historical Datasets",
+    "Principles of Macroeconomics"
+  ],
+  "disclaimer": "Educational content only. Not financial or investment advice.",
+  "isSynthetic": true
+}
